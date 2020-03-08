@@ -1,0 +1,8 @@
+#配置微服务端口号（建议微服务中一定要配）
+server:
+  port: 80
+
+spring:
+  #配置微服务名称（建议微服务中一定要配）
+  application:
+    name: cloud-order-service
