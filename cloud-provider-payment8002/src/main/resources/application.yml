@@ -1,6 +1,6 @@
 #配置微服务端口号（建议微服务中一定要配）
 server:
-  port: 8001
+  port: 8002
 
 spring:
   #配置微服务名称（建议微服务中一定要配）
@@ -27,5 +27,5 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true

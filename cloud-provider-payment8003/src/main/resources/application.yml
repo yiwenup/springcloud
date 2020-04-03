@@ -1,0 +1,10 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: cloud-provider-payment
+  #Zookeeper地址，CentOS7下面的地址，能够让应用访问到zookeeper
+  cloud:
+    zookeeper:
+      connect-string: 192.168.174.116:2181

@@ -12,6 +12,12 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+        <!-- Eureka Client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <!-- 自己抽取的公共部分 -->
         <dependency>
             <groupId>com.ncu.springcloud</groupId>
