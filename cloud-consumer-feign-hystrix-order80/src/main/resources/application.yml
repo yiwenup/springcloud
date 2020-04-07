@@ -1,0 +1,24 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-consumer-order
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7003.com:7003/eureka
+
+#设置Feign客户端超时时间(Feign是默认支持Ribbon的)
+ribbon:
+  #建立连接所用的时间，指网络正常情况下，两端连接所需时间
+  ReadTimeout: 5000
+  #建立连接后，从服务器读取可用资源所需时间
+  ConnectTimeout: 5000
+
+feign:
+  hystrix:
+    enabled: true
