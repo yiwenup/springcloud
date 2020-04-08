@@ -22,6 +22,7 @@
         <module>cloud-eureka-hystrix-server7003</module>
         <module>cloud-provider-hystrix-payment8005</module>
         <module>cloud-consumer-feign-hystrix-order80</module>
+        <module>cloud-hystrix-dashboard9001</module>
     </modules>
     <packaging>pom</packaging>
 
